@@ -1,0 +1,24 @@
+{
+    "name": "slack-cmd-trigger",
+    "version": "0.0.1",
+    "author": "Michael Duve",
+    "email": "mduve@designmail.net",
+    "description": "A helper triggering slack commands",
+    "homepage": "http://mduve.devdone.de",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:dazlious/slack-cmd-trigger.git"
+    },
+    "scripts": {
+        "preinstall": "sudo python ./_install/get_pip.py && sudo pip install slacker && sudo pip install argparse",
+        "start": "python index.py"
+    },
+    "keywords": [],
+    "license" : "MIT",
+    "engines": {
+        "node": "7.10.0",
+        "npm": "4.2.0"
+    },
+    "devDependencies": {},
+    "dependencies": {}
+}
