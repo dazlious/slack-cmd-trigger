@@ -1,4 +1,4 @@
-# py-cmd-trigger
+# Slack Command Trigger
 
 ## install
     npm install
