@@ -1,6 +1,6 @@
 {
     "name": "slack-cmd-trigger",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": "Michael Duve",
     "email": "mduve@designmail.net",
     "description": "A helper triggering slack commands",
@@ -13,7 +13,7 @@
         "preinstall": "sudo python ./_install/get_pip.py && sudo pip install slacker && sudo pip install argparse",
         "start": "python index.py"
     },
-    "keywords": [],
+    "keywords": ["Slack", "Command Trigger"],
     "license" : "MIT",
     "engines": {
         "node": "7.10.0",
